@@ -1,0 +1,30 @@
+body { background-color: hsl(212, 45%, 89%); }
+.container {
+    position: absolute;
+    width: 320px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding-bottom: 25px;
+}
+.qr {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 10px;
+}    
+.headline {
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    color: hsl(218, 44%, 22%);
+}    
+p {
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:hsl(220, 15%, 55%);
+}    
